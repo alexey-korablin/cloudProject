@@ -45,7 +45,7 @@ body {
 
 .header {
 	height: 800px;
-	background: url(img/header.jpeg) no-repeat center center;
+	background: url(../img/header.jpeg) no-repeat center center;
 	background-size: cover;
 	text-align: center;
 }
@@ -72,7 +72,6 @@ body {
 .header a {
   text-decoration: none;
   text-transform: uppercase;
-  border: 1px solid #000;
   border-radius: 4px;
   background-color: #000;
   color: #fff;
@@ -83,3 +82,61 @@ body {
   margin-top: 50px;
 }
 
+.header a:hover {
+  background: #024FAB;
+  cursor: pointer;
+  transition: background .5s;
+}
+
+.nav .container {
+  height: 80px;
+  background-color: #000;
+  text-align: center;
+  /*padding: 0 10;*/
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0 10px;
+}
+
+.nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  padding: 0 20px 0 20px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;  
+}
+
+.nav ul li:hover {
+  background: #024FAB;
+  cursor: pointer;
+  transition: background .5s;
+}
+
+.main .container {
+  margin: 80px auto;
+}
+
+.main img {
+  height: 190px;
+  float: left;
+  margin: 0 50px 20px 0;
+}
+
+.main h2 {
+  font-weight: 400;
+  font-size: 32px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.main p {
+  font-weight: 100;
+  padding-bottom: 20px;
+}
