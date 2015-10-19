@@ -54,7 +54,7 @@ body {
   font-weight: 600;
   font-size: 130px;
   color: #fff;
-  font-family: Arial, serif;
+  font-family: "xtreeme2personaluse", Arial, serif;
   text-transform: uppercase;
   padding-top: 230px;
   padding-bottom: 80px;
@@ -63,7 +63,7 @@ body {
 .header p {
   font-size: 30px;
   color: #fff;
-  font-family: Arial, serif;
+  font-family: "ubuntu", Arial, serif;
   text-transform: uppercase;
   letter-spacing: 5px;
   padding-bottom: 50px;
@@ -76,7 +76,7 @@ body {
   background-color: #000;
   color: #fff;
   font-size: 14px;
-  font-family: Arial, serif;
+  font-family: "ubuntu", Arial, serif;
   letter-spacing: 1px;
   padding: 20px 20px;
   margin-top: 50px;
@@ -110,7 +110,9 @@ body {
 
 .nav a {
   color: #fff;
-  text-decoration: none;  
+  text-decoration: none; 
+  font-size: 1.2em; 
+  font-family: "ubuntu", Arial, serif;
 }
 
 .nav ul li:hover {
@@ -132,6 +134,7 @@ body {
 .main h2 {
   font-weight: 400;
   font-size: 32px;
+  font-family: "xtreeme2personaluse", Arial, serif;
   text-transform: uppercase;
   padding-bottom: 20px;
 }
@@ -139,6 +142,8 @@ body {
 .main p {
   font-weight: 100;
   padding-bottom: 20px;
+  font-size: 1.5em;
+  font-family: "ubuntu", Arial, serif;
 }
 
 .jumbotron {
@@ -151,4 +156,70 @@ body {
 .jumbotron .container {
   position: relative;
   top: 200px;
+  max-width: 1220px;
+}
+
+.jumbotron h2 {
+  font-weight: 400;
+  font-size: 64px;
+  text-transform: uppercase;
+  font-family: "xtreeme2personaluse", Arial, serif;
+  color: #fff;
+  padding: 0 0 50px 60px;
+  /*margin-right: -430px;*/
+}
+
+.jumbotron p {
+  font-weight: 100;
+  font-size: 1.5em;
+  font-family: "ubuntu", Arial, serif;
+  color: #fff;
+  padding-bottom: 60px;
+  /*margin-right: -430px;*/
+}
+
+.jumbotron a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  font-family: "ubuntu", Arial, serif;
+  letter-spacing: 1px;
+  background: #000;
+  border-radius: 4px;
+  padding: 20px 20px;
+  /*margin-right: -430px;*/
+}
+
+.jumbotron a:hover {
+  background: #024FAB;
+  cursor: pointer;
+  transition: background .5s;
+}
+
+.footer {
+  height: 70px;
+  background: #000;
+
+}
+
+.footer .container {
+  margin-left: 0;
+  padding-left: 20px;
+}
+
+.footer p {
+  padding: 20px 0 0 0;
+  font-family: "ubuntu", Arial, serif;
+  color: #fff;
+}
+
+@font-face {
+  font-family: "xtreeme2personaluse";
+  src: url(../fnt/xtreem2personaluse.ttf);
+}
+
+@font-face {
+  font-family: "ubuntu";
+  src: url(../fnt/ubuntu.ttf);
 }
